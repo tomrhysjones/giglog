@@ -22,11 +22,30 @@ This project was built as part of a coursework submission using:
 - Each gig is associated with a user
 
 ## Screenshots
-(Add screenshots of:)
-- All Gigs page
-- Add New Gig form
-- Show Gig page
-- Edit Gig page
+
+### Home
+![Home](screenshots/home.png)
+
+### All Gigs
+![All Gigs](screenshots/all-gigs.png)
+
+### Add Gig
+![Add Gig](screenshots/add-gig.png)
+
+### Show Gig
+![Show Gig](screenshots/show-gig.png)
+
+### Sign Out
+![Sign Out](screenshots/signout.png)
+
+## Planning
+
+### Wireframe
+![Wireframe](screenshots/wireframe.png)
+
+### ERD
+![ERD](screenshots/erd.png)
+
 
 ## Technologies Used
 - Node.js
