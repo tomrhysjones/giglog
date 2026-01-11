@@ -1,0 +1,13 @@
+<p>
+  <a href="/gigs/new">+ Add New Gig</a>
+</p>
+
+<ul>
+  <% gigs.forEach(gig => { %>
+    <li>
+      <a href="/gigs/<%= gig._id %>"><%= gig.title %></a><br />
+      <%= gig.venue %> • <%= new Date(gig.date).toDateString() %><br />
+      <a href="/gigs/<%= gig._id %>">View</a>
+    </li>
+  <% }) %>
+</ul>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title || "GigLog" %></title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/gigs">GigLog</a></h1>
+
+      <nav>
+        <a href="/gigs">Gigs</a>
+        <a href="/gigs/new">Add Gig</a>
+        <a href="/auth/email">Sign Out</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1><%= header %></h1>
+      <%- body %>
+    </main>
+
+    <footer>
+      <p>© <%= new Date().getFullYear() %> GigLog</p>
+    </footer>
+  </body>
+</html>

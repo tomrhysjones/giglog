@@ -1,0 +1,26 @@
+<form action="/gigs/<%= gig._id %>?_method=PUT" method="POST">
+  <div>
+    <label>Title</label><br />
+    <input name="title" value="<%= gig.title %>" required />
+  </div>
+
+  <div>
+    <label>Venue</label><br />
+    <input name="venue" value="<%= gig.venue %>" required />
+  </div>
+
+  <div>
+    <label>Date</label><br />
+    <input
+      type="date"
+      name="date"
+      value="<%= new Date(gig.date).toISOString().slice(0, 10) %>"
+      required
+    />
+  </div>
+
+  <p>
+    <button type="submit">Save</button>
+    <a href="/gigs/<%= gig._id %>">Cancel</a>
+  </p>
+</form>

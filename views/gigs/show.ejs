@@ -1,0 +1,14 @@
+<p><strong>Venue:</strong> <%= gig.venue %></p>
+<p><strong>Date:</strong> <%= new Date(gig.date).toDateString() %></p>
+
+<p>
+  <a href="/gigs/<%= gig._id %>/edit">Edit</a>
+</p>
+
+<form action="/gigs/<%= gig._id %>?_method=DELETE" method="POST">
+  <button type="submit">Delete</button>
+</form>
+
+<p>
+  <a href="/gigs">Back</a>
+</p>
