@@ -11,6 +11,13 @@ This project was built as part of a coursework submission using:
 - Node.js
 - EJS
 
+## Getting Started
+
+### Prerequisites
+- Node.js
+- MongoDB Atlas connection string
+
+
 ## Features
 
 - User authentication (sign up, login, sign out)
@@ -23,28 +30,24 @@ This project was built as part of a coursework submission using:
 
 ## Screenshots
 
-### Home
-![Home](screenshots/home.png)
+### GigLog Home
+![GigLog Home](screenshots/home.png)
 
-### All Gigs
-![All Gigs](screenshots/all-gigs.png)
-
-### Add Gig
-![Add Gig](screenshots/add-gig.png)
-
-### Show Gig
+### All Gigs / Show Gig
 ![Show Gig](screenshots/show-gig.png)
+
+### Add New Gig
+![Add Gig](screenshots/add-gig.png)
 
 ### Sign Out
 ![Sign Out](screenshots/signout.png)
 
-## Planning
+### ERD
+![ERD](screenshots/ERD.png)
 
 ### Wireframe
 ![Wireframe](screenshots/wireframe.png)
 
-### ERD
-![ERD](screenshots/erd.png)
 
 
 ## Technologies Used
