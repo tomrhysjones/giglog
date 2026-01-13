@@ -1,13 +1,19 @@
-<p>
-  <a href="/gigs/new">+ Add New Gig</a>
-</p>
+<div class="actions">
+ <a class="add-link" href="/gigs/new">+ Add New Gig</a>
+</div>
 
-<ul>
+<ul class="gig-list">
   <% gigs.forEach(gig => { %>
-    <li>
-      <a href="/gigs/<%= gig._id %>"><%= gig.title %></a><br />
-      <%= gig.venue %> • <%= new Date(gig.date).toDateString() %><br />
-      <a href="/gigs/<%= gig._id %>">View</a>
+    <li class="gig-item">
+      <a href="/gigs/<%= gig._id %>"><%= gig.title %></a>
+
+      <div class="gig-meta">
+        <span><%= gig.venue %></span>
+        <span>•</span>
+        <span><%= gig.date.toDateString() %></span>
+      </div>
+
+      <a class="view-link" href="/gigs/<%= gig._id %>">View</a>
     </li>
   <% }) %>
 </ul>

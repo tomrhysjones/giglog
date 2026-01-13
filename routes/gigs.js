@@ -5,7 +5,7 @@ const Gig = require("../models/Gig");
 // INDEX - list all gigs
 router.get("/", async (req, res) => {
   const gigs = await Gig.find().sort({ date: -1 });
-  res.render("gigs/index", { gigs, title: "GigLog", header: "All Gigs" });
+  res.render("gigs/index", { gigs, title: "GiigLog", header: "All Gigs" });
 });
 
 // NEW - show form
@@ -29,7 +29,7 @@ router.get("/:id", async (req, res) => {
   if (!gig) return res.status(404).send("Gig not found");
   res.render("gigs/show", {
     gig,
-    title: `GigLog - ${gig.title}`,
+    title: `GiigLog - ${gig.title}`,
     header: gig.title,
   });
 });
@@ -40,7 +40,7 @@ router.get("/:id/edit", async (req, res) => {
   if (!gig) return res.status(404).send("Gig not found");
   res.render("gigs/edit", {
     gig,
-    title: `GigLog - Edit ${gig.title}`,
+    title: `GiigLog - Edit ${gig.title}`,
     header: `Edit: ${gig.title}`,
   });
 });
