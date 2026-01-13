@@ -31,22 +31,22 @@ This project was built as part of a coursework submission using:
 ## Screenshots
 
 ### GigLog Home
-![GigLog Home](screenshots/home.png)
+![GigLog Home](./screenshots/home.png)
 
 ### All Gigs / Show Gig
-![Show Gig](screenshots/show-gig.png)
+![Show Gig](./screenshots/show-gig.png)
 
 ### Add New Gig
-![Add Gig](screenshots/add-gig.png)
+![Add Gig](./screenshots/add-gig.png)
 
-### Sign Out
-![Sign Out](screenshots/signout.png)
+### Login
+![Login](./screenshots/login.png)
 
 ### ERD
-![ERD](screenshots/ERD.png)
+![ERD](./screenshots/ERD.png)
 
 ### Wireframe
-![Wireframe](screenshots/wireframe.png)
+![Wireframe](./screenshots/wireframe.png)
 
 
 
