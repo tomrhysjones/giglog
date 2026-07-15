@@ -95,7 +95,7 @@ Each registered user owns multiple Gig entries, allowing every user to manage th
 
 ### Entity Relationship Diagram
 
-![ERD](./screenshots/erd.png)
+![ERD](./screenshots/ERD.png)
 
 ---
 
