@@ -20,7 +20,9 @@ Built using the MEN stack (MongoDB, Express.js and Node.js), GigLog allows users
 
 ### Gig Details
 
-![Gig Details](./screenshots/details.png)
+## 🎵 Gig Details
+
+![Gig Details](./screenshots/show-gig.png)
 
 ### Add New Gig
 
