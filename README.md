@@ -1,4 +1,4 @@
-# GigLog
+# GigLog – Personal Live Music Journal
 
 GigLog is a MEN-stack CRUD application for tracking live music gigs.
 
