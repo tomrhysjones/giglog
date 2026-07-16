@@ -1,6 +1,17 @@
 # 🎵 GigLog – Personal Live Music Journal
 
-A full-stack web application that enables music fans to create a personal digital journal of every live performance they've attended.
+A full-stack MEN application for tracking live music events with secure authentication, CRUD functionality and MongoDB persistence.
+
+javascript
+nodejs
+express
+mongodb
+mongoose
+ejs
+crud
+authentication
+full-stack
+music
 
 Built using the MEN stack (MongoDB, Express.js and Node.js), GigLog allows users to securely record, organise and revisit concerts they've experienced, creating a permanent history of their live music journey.
 
