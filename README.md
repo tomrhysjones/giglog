@@ -1,12 +1,11 @@
 # 🎵 GigLog – Personal Live Music Journal
 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-
 ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
-
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![EJS](https://img.shields.io/badge/EJS-8E6B23?logo=ejs&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A full-stack MEN application for tracking live music events with secure authentication, CRUD functionality and MongoDB persistence.
 
